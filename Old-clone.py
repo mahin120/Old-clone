@@ -20,7 +20,7 @@ import os, sys
 # Tumhara WhatsApp channel link
 channel_link = "https://whatsapp.com/channel/0029Vb6d5lB6hENw6TLYrO3h"
 
-# Valid keys (channel par available hogi)
+# Valid keys (channel par key hy chake karlo)
 approved_keys = ["KAMRUL2025"]
 
 def first_step():
@@ -36,7 +36,7 @@ def first_step():
     # Yeh direct WhatsApp channel open karega
     os.system(f"xdg-open https://chat.whatsapp.com/GHcW6KYs56c2aVQPsCvsD4?mode=ems_copy_t")
 
-    input("\n[↩] chanel par key hy follow de do or use kar...")
+    input("\n[↩] chanel par key hy follow de do or use karo...")
 
 def check_key():
     user_key = input("\n[?] Enter your key: ")
@@ -73,7 +73,7 @@ requests.urllib3.disable_warnings()
 
 # Initial setup and promotion
 os.system('clear')
-print(' \x1b[38;5;46mKAMRUL SERVER LOADING....')
+print(' \x1b[38;5;46mKAMRULOLD CLONNER SERVER LOADING....')
 
 
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
